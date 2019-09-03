@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.mobileware.validation</groupId>
 	<artifactId>customvalidator</artifactId>
-	<version>0.0.4</version>
+	<version>0.0.5</version>
 
 	<dependencies>
 		<!-- https://mvnrepository.com/artifact/net.sf.oval/oval -->
@@ -37,7 +37,8 @@
 		<repository>
 			<id>central</id>
 			<name>libs-release</name>
-			<url>http://mum.mobilewaretech.com:13382/artifactory/libs-release-local</url>
+			<!-- <url>http://mum.mobilewaretech.com:13382/artifactory/libs-release-local</url> -->
+			<url>http://192.168.0.183:8081/artifactory/libs-release-local/</url>
 		</repository>
 	</distributionManagement>
 </project>
